@@ -6,4 +6,8 @@
     "jsx": "react",            /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
   },
   "include": ["src/**/*"],
+  "exclude": [
+    "src/**/*.did.js", 
+    "src/**/index.js"
+  ],
 }
